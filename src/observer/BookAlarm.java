@@ -19,7 +19,7 @@ public class BookAlarm implements Subject {
 	@Override
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
-			observers.get(i).update();
+			BookAlarm.observers.get(i).update();
 		}
 	}
 
