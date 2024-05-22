@@ -1,6 +1,7 @@
-package models;
+package observer;
 
-public class Books {
+
+public class Book {
 	private String title;
 	private String state;
 	
